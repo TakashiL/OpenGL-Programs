@@ -1,0 +1,18 @@
+Student Name: Ziyue (Louis) Lu
+Student ID: 301295780
+---------------------------------
+
+Q: How to run the program?
+A:
+0. To create the executable, run "make".
+
+1. At least 6 arguments are required:
+./myrobot old_x old_y old_z new_x new_y new_z <-tv|-sv>
+
+2. Example:
+./myrobot 3 4 5 -1 -2 -3 -tv
+or
+./myrobot 3 4 5 -1 -2 -3
+
+3. In the program: press 's' to side view, press 't' to top view, press 'v' to change view whatever.
+Press 1 to select base to rotate, press 2 to select lower arm, press 3 to select upper arm.
