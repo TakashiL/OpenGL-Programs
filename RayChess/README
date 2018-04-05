@@ -1,0 +1,14 @@
+Student Name: Ziyue (Louis) Lu
+Student ID: 301295780
+---------------------------------
+
+Q: How to run the program?
+A:
+0. To create the executable, run "make".
+
+1. run ./raychess -u 3 +s +l +r.
+
+------------------------------------
+This is a program for bonus problem (a). To get the scene in
+chess_scene.bmp, you have to run command './raychess -u 3 +s +l +r'.
+I have only implemented problem (a), and there is no speedup techniques.

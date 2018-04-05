@@ -1,0 +1,26 @@
+Student Name: Ziyue (Louis) Lu
+Student ID: 301295780
+---------------------------------
+
+Q: How to run the program?
+A:
+0. To create the executable, run "make".
+
+1. A few example commands:
+./raycast -d 5 +s +l
+or
+./raycast -u 5 +s +l +r +c
+or
+./raycast -u 3 +s +l +r +f +c +p
+
+Q: Which features you have implemented?
+A: This program implemented all features required. For feature 6 and 7, it may take
+a long time to run, set step_max to 3 to shorten the running time.
+
+Q: Images and corresponding commands?
+A: There are two images. You can find them in the folder 'images'.
+The 'default.bmp' is created with command: ./raycast -d 5 +s +l
+The 'mine.bmp' is created with command: ./raycast -u 5 +s +l +r +c
+
+Please note that stochastic ray and supersampling are also implemented, but not
+showed in the 'mine.bmp'.
