@@ -1,18 +1,3 @@
-/***********************************************************
- * CMPT 361, Summer 2012
- *
- *  raycast.cpp
- *
- *  Render a simple scene using ray tracing
- *
- *  NAME:
- *  SFU ID:
- *
- *  Template code for drawing a scene using raycasting.
- *  Some portions of the code was originally written by
- *  M. vandePanne - and then modified by R. Zhang & H. Li
-***********************************************************/
-
 #include "include/Angel.h"
 
 #include <stdio.h>

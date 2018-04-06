@@ -1,22 +1,20 @@
-Q: How to run the program?
-A:
-0. To create the executable, run "make".
+# Ray tracing
 
-1. A few example commands:
-./raycast -d 5 +s +l
-or
-./raycast -u 5 +s +l +r +c
-or
-./raycast -u 3 +s +l +r +f +c +p
+## How to Run the Game:
+* Use command "make" to create the executable file.
+* Use command "./raycast -d 0" to create the simplest image.
+* The most complicated command is "./raycat -u step_max +s +l +r +f +c +p".
 
-Q: Which features you have implemented?
-A: This program implemented all features required. For feature 6 and 7, it may take
-a long time to run, set step_max to 3 to shorten the running time.
+## Parameter detail:
+* +s: add shadows
+* +l: add reflections
+* +r: add refractions
+* +c: add chess board
+* +f: add stochastic rays: will be time-consuming, set step_max to 3
+* +p: add supersampling: will be time-consuming, set step_max to 3
 
-Q: Images and corresponding commands?
-A: There are two images. You can find them in the folder 'images'.
-The 'default.bmp' is created with command: ./raycast -d 5 +s +l
-The 'mine.bmp' is created with command: ./raycast -u 5 +s +l +r +c
-
-Please note that stochastic ray and supersampling are also implemented, but not
-showed in the 'mine.bmp'.
+## Images:
+* There are two images. You can find them in the folder 'images'.
+* The 'default.bmp' is created with command: ./raycast -d 5 +s +l
+* The 'mine.bmp' is created with command: ./raycast -u 5 +s +l +r +c
+* To save image during running, press 's'.

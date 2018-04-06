@@ -1,14 +1,19 @@
-Q: How to run the program?
-A:
-0. To create the executable, run "make".
+# Robot Arm Animation
 
-1. At least 6 arguments are required:
-./myrobot old_x old_y old_z new_x new_y new_z <-tv|-sv>
+## How to Run the Game:
+* Use command "make" to create the executable file.
+* Use command "./myrobot" or "./myrobot old_x old_y old_z new_x new_y new_z <-tv|-sv>" to run the program.
+* User can press 'q', 'Q' or 'esc' key to terminate the program.
 
-2. Example:
-./myrobot 3 4 5 -1 -2 -3 -tv
-or
-./myrobot 3 4 5 -1 -2 -3
+## Viewing mode:
+* Use command "./myrobot" to run the viewing mode.
+* User can press key '1' to choose the base, press key '2' to choose the lower arm, or press key '3' to choose the upper arm.
+* User can press "right" and "left" key or using mouse clicks to rotate the part of the robot that has been chosen.
+* User can press "t" key to change to the top view, or press "s" key to change back to the side view.
 
-3. In the program: press 's' to side view, press 't' to top view, press 'v' to change view whatever.
-Press 1 to select base to rotate, press 2 to select lower arm, press 3 to select upper arm.
+## Fetching mode:
+* User command "./myrobot old_x old_y old_z new_x new_y new_z <-tv | -sv>" to run the fetching mode.
+* (old_x, old_y, old_z) is the initial position for the sphere.
+* (new_x, new_y, new_z) is the desination for the sphere.
+* "-tv" for top view, "-sv" for side view.
+* User can press "t" key to change to the top view, or press "s" key to change back to the side view while program is running.

@@ -1,7 +1,3 @@
-// Tetris - CMPT 361 Assignment 1
-// Student Name: Ziyue Lu
-// Student ID: 301295780
-
 #include "Angel.h"
 
 static vec3 base_colors[] = {

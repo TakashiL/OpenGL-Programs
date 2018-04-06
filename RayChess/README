@@ -1,10 +1,9 @@
-Q: How to run the program?
-A:
-0. To create the executable, run "make".
+# Ray tracing for chess pieces
 
-1. run ./raychess -u 3 +s +l +r.
+## How to Run the Game:
+* Use command "make" to create the executable file.
+* Use command "./raychess -u 3 +s +l +r" to create image.
 
-------------------------------------
-This is a program for bonus problem (a). To get the scene in
-chess_scene.bmp, you have to run command './raychess -u 3 +s +l +r'.
-I have only implemented problem (a), and there is no speedup techniques.
+## Images:
+* To save image during running, press 's'.
+* Your image should be similar to the .bmp file "chess_scene.bmp".
